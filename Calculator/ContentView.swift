@@ -20,61 +20,61 @@ struct ContentView: View {
                 .frame(width: 315, height: 60).border(Color.black, width: 2)
             HStack{
                 VStack {
-                    Button("1"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("1"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("2"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("2"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("3"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("3"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
             }
             HStack{
                 VStack {
-                    Button("4"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("4"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("5"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("5"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("6"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("6"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
             }
             HStack{
                 VStack {
-                    Button("7"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("7"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("8"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("8"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("9"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("9"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
             }
             HStack{
                 VStack {
-                    Button("0"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("0"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("+"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("+"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("-"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("-"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
             }
             HStack{
                 VStack {
-                    Button("*"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("*"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("/"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("/"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
                 VStack{
-                    Button("sin"){}.frame(width: 100, height: 60).border(Color.black, width: 2)
+                    Button("sin"){}.frame(width: 100, height: 60).border(Color.black, width: 2).font(.largeTitle)
                 }
             }
             
-            Button("OBLICZ") {}.frame(width: 315, height:60).border(Color.black, width: 2)
+            Button("OBLICZ"){}.frame(width: 315, height:60).border(Color.black, width: 2).font(.largeTitle)
         }
         }
     }
